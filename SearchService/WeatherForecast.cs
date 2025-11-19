@@ -1,4 +1,4 @@
-namespace Microservices
+namespace SearchService
 {
     public class WeatherForecast
     {

@@ -1,6 +1,13 @@
 @SearchService_HostAddress = http://localhost:5051
 
-GET {{SearchService_HostAddress}}/weatherforecast/
+GET {{SearchService_HostAddress}}/api/search/books
 Accept: application/json
 
 ###
+
+GET {{SearchService_HostAddress}}/api/search/books?query=algorithms
+Accept: application/json
+
+###
+
+GET {{SearchService_HostAddress}}/health
